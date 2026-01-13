@@ -1,10 +1,14 @@
-This is a basic command-line chat application developed in Java using the java.net.Socket and java.net.ServerSocket classes. 
-It provides a simple, two-way communication channel between two or more clients that are connected by using single server.
-
-The application uses multi-threading to handle sending and receiving messages concurrently,
-ensuring that incoming messages are displayed immediately without interrupting the user's ability to type a response.
-
-Features:
-- Two-Way Communication: Allows real-time message exchange between the Clients.
-- Non-Blocking I/O: Utilizes separate threads for reading incoming network data, preventing the console from freezing while waiting for user input.
-- Console Synchronization: Implements console handling to ensure incoming messages properly interrupt and redraw the command prompt.
+This project is a simple calculator 
+using Java RMI. 
+The server performs arithmetic operations 
+(add, subtract, multiply, divide) and 
+the client provides a GUI with two input 
+fields and four buttons. The first field 
+is used as the first number and 
+the second field as the second number. 
+When a button is clicked, the client 
+sends the numbers to the server, 
+which performs the operation and 
+returns the result, shown in the GUI. 
+Subtraction and division use the 
+first number minus/divided by the second.
